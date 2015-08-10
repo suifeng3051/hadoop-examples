@@ -20,6 +20,7 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
  * 统计相同IP的个数
  */
 public class TestMR {
+	//add a comment
 	public static class MyMapper extends
 			Mapper<LongWritable, Text, Text, IntWritable> {
 		public void map(LongWritable key, Text value, Context context)
